@@ -18,4 +18,19 @@ body{
   padding:30px 12px;
 }
 
+.container{max-width:var(--max-width);
+    margin:0 auto;background:var(--white);
+    border-radius:var(--radius);box-shadow:var(--card-shadow);
+    overflow:hidden
+}
+
+.header{
+  display:flex;align-items:center;
+  gap:16px;padding:18px 26px;
+  background:linear-gradient(90deg,var(--blue),#8ed0f4);
+  color:var(--white)
+}
+
+
+
 
