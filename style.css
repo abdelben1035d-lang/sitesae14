@@ -20,15 +20,43 @@ body{
 
 .container{max-width:var(--max-width);
     margin:0 auto;background:var(--white);
-    border-radius:var(--radius);box-shadow:var(--card-shadow);
+    border-radius:var(--radius);
+    box-shadow:var(--card-shadow);
     overflow:hidden
 }
 
 .header{
   display:flex;align-items:center;
-  gap:16px;padding:18px 26px;
+  gap:16px;
+  padding:18px 26px;
   background:linear-gradient(90deg,var(--blue),#8ed0f4);
   color:var(--white)
+}
+
+
+.header img.logo{width:64px;height:64px;
+    border-radius:10px;
+    background:var(--white);
+    padding:6px
+}
+
+.header h1{
+    font-size:20px;letter-spacing:0.2px
+}
+
+.nav{
+    display:flex;
+    gap:12px;
+    margin-left:auto
+}
+.nav a{
+    color:var(--white);
+    text-decoration:none;
+    padding:8px 12px;border-radius:8px;
+    font-weight:600
+}
+.nav a:hover{
+    background:rgba(255,255,255,0.12)
 }
 
 
