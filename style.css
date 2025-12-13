@@ -77,12 +77,26 @@ body{
 }
 
 .hero h2{
-    font: size:26px;
-    margin-bottom: 6px;
-    color:var(--navy);
+    font-size:26px;
+    margin-bottom:6px;
+    color:var(--navy)
 }
+
 
 .hero p{
     color: #0f3a52;
 }
+
+.hero img{
+    width:260px;
+    height:150px;
+    object-fit:cover;
+    border-radius:10px;
+    box-shadow:var(--card-shadow)
+}
+
+
+}
+
+
 
