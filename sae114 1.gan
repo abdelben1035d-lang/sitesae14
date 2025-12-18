@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2025-11-20" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3230" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="200" order="0"/>
+        <field id="tpd4" name="Date de début" width="75" order="1"/>
+        <field id="tpd5" name="Date de fin" width="75" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="color.recent">
+            <![CDATA[#ff3300 #00cccc #0000ff #ff0099 #cc66ff]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Lancement et tests" color="#cc66ff" meeting="false" start="2025-12-15" duration="5" complete="0" thirdDate="2025-11-10" thirdDate-constraint="0" expand="true">
+            <task id="1" name="Tests Finaux" color="#8cb6ce" meeting="false" start="2025-12-19" duration="1" complete="0" thirdDate="2025-11-10" thirdDate-constraint="0" expand="true"/>
+            <task id="2" name="Revisions et correction des bugs" color="#8cb6ce" meeting="false" start="2025-12-18" duration="1" complete="0" thirdDate="2025-11-10" thirdDate-constraint="0" expand="true"/>
+            <task id="3" name="Déploiement sur l'hebergement" color="#8cb6ce" meeting="false" start="2025-12-17" duration="1" complete="0" thirdDate="2025-11-10" thirdDate-constraint="0" expand="true"/>
+            <task id="4" name="Préparation à la remise du projet" color="#8cb6ce" meeting="false" start="2025-12-16" duration="1" complete="0" thirdDate="2025-11-10" thirdDate-constraint="0" expand="true"/>
+            <task id="5" name="Livraison du projet" color="#8cb6ce" meeting="false" start="2025-12-15" duration="1" complete="0" thirdDate="2025-11-10" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="6" name="Integration et amelioration du site" color="#ff0099" meeting="false" start="2025-12-08" duration="5" complete="0" thirdDate="2025-11-10" thirdDate-constraint="0" expand="true">
+            <task id="7" name="Ajouter le contenu final" color="#8cb6ce" meeting="false" start="2025-12-12" duration="1" complete="0" thirdDate="2025-11-10" thirdDate-constraint="0" expand="true"/>
+            <task id="9" name="Ajouter des effets simple" color="#8cb6ce" meeting="false" start="2025-12-11" duration="1" complete="0" thirdDate="2025-12-08" thirdDate-constraint="0" expand="true"/>
+            <task id="10" name="Optimiser le code" color="#8cb6ce" meeting="false" start="2025-12-10" duration="1" complete="0" thirdDate="2025-12-08" thirdDate-constraint="0" expand="true"/>
+            <task id="11" name="Verifier la compatibiliter" color="#8cb6ce" meeting="false" start="2025-12-09" duration="1" complete="0" thirdDate="2025-12-08" thirdDate-constraint="0" expand="true"/>
+            <task id="12" name="Préparer la version finale à tester" color="#8cb6ce" meeting="false" start="2025-12-08" duration="1" complete="0" thirdDate="2025-12-08" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="13" name="Mise en forme (css)" color="#0000ff" meeting="false" start="2025-12-01" duration="5" complete="0" thirdDate="2025-12-08" thirdDate-constraint="0" expand="true">
+            <task id="14" name="Verifier la cohérance du design et corriger les bugs d'affichage" color="#8cb6ce" meeting="false" start="2025-12-05" duration="1" complete="0" thirdDate="2025-12-08" thirdDate-constraint="0" expand="true"/>
+            <task id="15" name="Adapter le site en version mobile" color="#8cb6ce" meeting="false" start="2025-12-04" duration="1" complete="0" thirdDate="2025-12-08" thirdDate-constraint="0" expand="true"/>
+            <task id="16" name="Styliser les autres pages" color="#8cb6ce" meeting="false" start="2025-12-03" duration="1" complete="0" thirdDate="2025-12-08" thirdDate-constraint="0" expand="true"/>
+            <task id="17" name="Styliser la page d'acceuil" color="#8cb6ce" meeting="false" start="2025-12-02" duration="1" complete="0" thirdDate="2025-12-08" thirdDate-constraint="0" expand="true"/>
+            <task id="18" name="Créer le fichier style.css et le lier &amp; toutes les pages" color="#8cb6ce" meeting="false" start="2025-12-01" duration="1" complete="0" thirdDate="2025-12-08" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="19" name="Développement structurel (html)" meeting="false" start="2025-11-24" duration="5" complete="0" expand="true">
+            <task id="20" name="Vérifier la structure html" color="#8cb6ce" meeting="false" start="2025-11-28" duration="1" complete="0" thirdDate="2025-12-08" thirdDate-constraint="0" expand="true"/>
+            <task id="21" name="Ajouter les balises principales" color="#8cb6ce" meeting="false" start="2025-11-27" duration="1" complete="0" thirdDate="2025-12-08" thirdDate-constraint="0" expand="true"/>
+            <task id="22" name="Lier les pages entre elles" color="#8cb6ce" meeting="false" start="2025-11-26" duration="1" complete="0" thirdDate="2025-12-08" thirdDate-constraint="0" expand="true"/>
+            <task id="23" name="Créer les pages secondaires" color="#8cb6ce" meeting="false" start="2025-11-25" duration="1" complete="0" thirdDate="2025-12-08" thirdDate-constraint="0" expand="true"/>
+            <task id="24" name="Créer la page d'acceuil" color="#8cb6ce" meeting="false" start="2025-11-24" duration="1" complete="0" thirdDate="2025-12-08" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="25" name="Conception graphique" color="#00cccc" meeting="false" start="2025-11-17" duration="5" complete="0" thirdDate="2025-12-08" thirdDate-constraint="0" expand="true">
+            <task id="26" name="Validation des maquettes et de la charte graphique" color="#8cb6ce" meeting="false" start="2025-11-21" duration="1" complete="0" thirdDate="2025-12-08" thirdDate-constraint="0" expand="true"/>
+            <task id="27" name="intégrer la charte graphique dans le dossier du projet" color="#8cb6ce" meeting="false" start="2025-11-20" duration="1" complete="0" thirdDate="2025-12-08" thirdDate-constraint="0" expand="true"/>
+            <task id="28" name="Créer le logo et les éléments graphique si besoin" color="#8cb6ce" meeting="false" start="2025-11-19" duration="1" complete="0" thirdDate="2025-12-08" thirdDate-constraint="0" expand="true"/>
+            <task id="29" name="Choisir la palette de couleurs et les polices" color="#8cb6ce" meeting="false" start="2025-11-18" duration="1" complete="0" thirdDate="2025-12-08" thirdDate-constraint="0" expand="true"/>
+            <task id="30" name="Créer les maquettes des pages" color="#8cb6ce" meeting="false" start="2025-11-17" duration="1" complete="0" thirdDate="2025-12-08" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="31" name="Analyse et planification" color="#ff3300" meeting="false" start="2025-11-10" duration="5" complete="0" thirdDate="2025-12-08" thirdDate-constraint="0" expand="true">
+            <task id="32" name="Rédiger un mini dossier de conception" color="#8cb6ce" meeting="false" start="2025-11-14" duration="1" complete="0" thirdDate="2025-12-08" thirdDate-constraint="0" expand="true"/>
+            <task id="33" name="Identifier les ressources nécessaires" color="#8cb6ce" meeting="false" start="2025-11-13" duration="1" complete="0" thirdDate="2025-12-08" thirdDate-constraint="0" expand="true"/>
+            <task id="34" name="Concevoir le plan du site" color="#8cb6ce" meeting="false" start="2025-11-12" duration="1" complete="0" thirdDate="2025-12-08" thirdDate-constraint="0" expand="true"/>
+            <task id="35" name="Définir les objectifs du site" color="#8cb6ce" meeting="false" start="2025-11-11" duration="1" complete="0" thirdDate="2025-12-08" thirdDate-constraint="0" expand="true"/>
+            <task id="36" name="Lire et comprendre le cahier des charges" color="#8cb6ce" meeting="false" start="2025-11-10" duration="1" complete="0" thirdDate="2025-12-08" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
